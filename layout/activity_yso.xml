@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".YSO">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="750dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="Углы, связанные с окружностью."
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Центральный угол — угол, вершина которого совпадает с центром окружности."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Вписанный угол — угол, вершина которого лежит на окружности, а стороны пересекают её."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Вписанный угол в два раза меньше центрального, опирающегося на ту же дугу."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image1" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Все вписанные углы, опирающиеся на одну и ту же дугу равны."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image2" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Все вписанные углы, опирающиеся на одну и ту же хорду, вершины которых лежат по одну сторону от этой хорды, равны."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image3" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Все вписанные углы, опирающиеся на диаметр, прямые."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image4" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Любые два вписанных угла, опирающиеся на одну и ту же хорду, вершины которых лежат по разные стороны хорды, составляют в сумме 180°."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image5" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Угол между пересекающимися хордами измеряется полусуммой дуг, заключенных между его сторонами."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image6" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Угол между секущими, пересекающимися вне окружности, измеряется полуразностью дуг, заключенных между его сторонами."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image7" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Угол между касательной и секущей, пересекающимися вне окружности, измеряется полуразностью дуг, заключенных между его сторонами."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image8" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Угол между касательными к окружности измеряется полуразностью дуг, заключенных между его сторонами."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/yso_image9" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Угол между касательной и хордой, проходящей через точку касания, равняется половине центрального угла, опирающегося на данную хорду:  "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="80dp"
+                app:srcCompat="@drawable/yso_image10" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

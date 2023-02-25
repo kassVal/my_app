@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Variant3">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="750dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Для объектов, указанных в таблице, определите, какими цифрами они обозначены на плане. Заполните таблицу, в ответ запишите последовательность четырёх цифр без пробелов и других дополнительных символов."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image1_2" />
+
+            <ImageView
+                android:id="@+id/imageView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/image2_2" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На плане (см. рис.) изображён район города, в котором проживает Вика. Сторона каждой клетки на плане равна 15 м. Рядом с домом Вики, обозначенным на плане цифрой 4, находится одноэтажный магазин площадью 900 м2 и фитнес‐центр. В 15 м от магазина расположен дом, где живёт одноклассник Вики Артём. В 30 м от детской площадки находится дом, где живёт Олег. Если выйти из фитнес‐центра, пройти небольшой ельник, обозначенный цифрой 6, и детскую площадку, то приходишь к угловому дому, где живёт дедушка Вики. Рядом с ним находится мастерская по ремонту бытовой техники. Через дорогу от дома дедушки расположен рынок, а недалеко от него – мебельный центр площадью 2025 м2."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Детскую площадку решили покрыть резиновой плиткой размером 1 м × 1 м каждая. Плитка продаётся упаковками по 16 штук. Какое минимальное количество упаковок плитки необходимо приобрести?"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №3"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите суммарную площадь, которую занимают магазин и фитнес-центр. Ответ дайте в м2."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №4"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="По периметру детской площадки планируется поставить забор. Найдите его длину (в метрах)."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №5"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Фирма выбирает место для строительства гостиницы: в центре города или на его окраине. Стоимость прокладки 1 метра коммуникаций равна 5500 рублей. В гостинице планируется сдавать 500 номеров. Стоимость земли, цена строительства гостиницы и средняя стоимость номера даны в таблице."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image3_2" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Обдумав оба варианта, компания выбрала местом для строительства центр города. Через сколько суток после начала сдачи номеров (при условии полной загрузки гостиницы) более высокая стоимость номеров компенсирует разность в стоимости земли, строительства и прокладывания коммуникаций?"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №6"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите значение выражения  "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image4_2" />
+
+            <EditText
+                android:id="@+id/et_43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №7"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На координатной прямой отмечено число a."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image5_2" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="В ответе укажите номер правильного варианта."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image6_2" />
+
+            <EditText
+                android:id="@+id/et_44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №8"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите значение выражения"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image7_2" />
+
+            <EditText
+                android:id="@+id/et_45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №9"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Решите уравнение"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image8_2" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Если корней несколько, запишите их в ответ без пробелов в порядке возрастания."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №10"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Коля выбирает трехзначное число. Найдите вероятность того, что оно делится на 5."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №11"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На рисунке изображён график функции y=f левая круглая скобка x правая круглая скобка . Какие из утверждений относительно этой функции неверны? Укажите их номера."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image9_2" />
+
+            <ImageView
+                android:id="@+id/imageView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/image10_2" />
+
+            <EditText
+                android:id="@+id/et_48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №12"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image11_2" />
+
+            <EditText
+                android:id="@+id/et_49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №13"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Решите неравенство"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image12_2" />
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image13_2" />
+
+            <EditText
+                android:id="@+id/et_50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №14"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="В первом ряду кинозала 24 места, а в каждом следующем на 2 больше, чем в предыдущем. Сколько мест в восьмом ряду?"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №15"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image14_2" />
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image15_2" />
+
+            <EditText
+                android:id="@+id/et_52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №16"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Центр окружности, описанной около треугольника ABC, лежит на стороне AB. Найдите угол ABC, если угол BAC равен 30°. Ответ дайте в градусах."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image16_2" />
+
+            <EditText
+                android:id="@+id/et_53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №17"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="В прямоугольнике диагональ равна 10, угол между ней и одной из сторон равен 30°, длина этой стороны 5 корень из 3. Найдите площадь прямоугольника, деленную на  корень из 3."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №18"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На клетчатой бумаге с размером клетки 1см × 1см изображён параллелограмм. Найдите длину его большей высоты. Ответ дайте в сантиметрах."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image17_2" />
+
+            <EditText
+                android:id="@+id/et_55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №19"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Укажите номера верных утверждений."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="1)  Если два угла одного треугольника равны двум углам другого треугольника, то такие треугольники подобны.  \n2)  Вертикальные углы равны.  \n3)  Любая биссектриса равнобедренного треугольника является его медианой."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Если утверждений несколько, запишите их номера в порядке возрастания."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="100dp"
+                android:backgroundTint="#FF8000"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Отправить"
+                app:cornerRadius="60dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

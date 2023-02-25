@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Variant2">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="750dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Для объектов, указанных в таблице, определите, какими цифрами они обозначены на плане. Заполните таблицу, в ответ запишите последовательность четырёх цифр без пробелов и других дополнительных символов."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/image2" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На плане (см. рис.) изображена местность, прилегающая к озеру Круглому. Для удобства план нанесён на квадратную сетку, сторона каждого квадрата которой равна 500 м. Населённые пункты обозначены на плане жирными точками.  Рядом с озером Круглое находится болото, обозначенное на плане штриховкой. На болоте расположен хутор Камышино. От хутора Камышино проложена дорога к деревне Дубки, вокруг которой имеются дубовые рощи. Далее дорога идёт к селу Большое, расположенному по другую сторону озера от хутора Камышино. Село Большое соединено также дорогой с деревней Малая, обозначенной на плане цифрой 7. Деревня Малая, в свою очередь, соединена дорогой с деревней Дальней (отмечена цифрой 4). Преобладающая часть изображённой на плане местности  — это поля, используемые для выращивания злаков."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Автомобиль расходует в среднем 9 л топлива на 100 км пути. Сколько литров топлива израсходует автомобиль при поездке из хутора Камышино в деревню Малая по имеющимся дорогам?  "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №3"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите площадь (в км2) болота, отмеченного на плане."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №4"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите расстояние (в метрах) по прямой от хутора Камышино до села Большое."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №5"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Для улучшения сообщения между населёнными пунктами планируется построить ещё одну дорогу: из хутора Камышино в деревню Малая либо из хутора Камышино в деревню Дальняя. Дорога должна соединить населённые пункты по прямой. Цена прокладки дороги по полю равна 10 млн рублей за 1 км, по болоту – 20 млн рублей за 1 км. Из указанных двух вариантов дороги выберите тот, стоимость которого будет ниже. В ответе укажите стоимость (в млн рублей) выбранного варианта дороги.  "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №6"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Вычислите:"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image3" />
+
+            <EditText
+                android:id="@+id/et_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №7"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Какое из чисел отмечено на координатной прямой точкой A?  "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image4" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="В ответе укажите номер правильного варианта."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image5" />
+
+            <EditText
+                android:id="@+id/et_25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №8"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Найдите значение выражения"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image6" />
+
+            <EditText
+                android:id="@+id/et_26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №9"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Найдите корни уравнения"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image7" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Если корней несколько, запишите их в ответ без пробелов в порядке возрастания."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №10"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Записан рост (в сантиметрах) пяти учащихся: 158, 166, 134, 130, 132. На сколько отличается среднее арифметическое этого набора чисел от его медианы?"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №11"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На рисунке изображены графики функций вида"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image8" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Для каждого графика укажите соответствующее ему значения коэффициента a и дискриминанта D."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/image9" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Запишите в ответ цифры, расположив их в порядке, соответствующем буквам:"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/image10" />
+
+            <EditText
+                android:id="@+id/et_29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №12"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Период колебания математического маятника T (в секундах) приближенно можно вычислить по формуле T=2 корень из l, где l  — длина нити (в метрах). Пользуясь этой формулой, найдите длину нити маятника (в метрах), период колебаний которого составляет 3 секунды."
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №13"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="При каких значениях x значение выражения 9x + 7 меньше значения выражения 8x − 3?"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="В ответе укажите номер правильного варианта."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/image11" />
+
+            <EditText
+                android:id="@+id/et_31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №14"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Бактерия, попав в живой организм, к концу 20-й минуты делится на две бактерии, каждая из них к концу следующих 20 минут делится опять на две и т. д. Сколько бактерий окажется в организме через 4 часа, если по истечении четвертого часа в организм из окружающей среды попала еще одна бактерия?"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №15"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Площадь прямоугольного треугольника равна"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image12" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Один из острых углов равен 30°. Найдите длину катета, лежащего напротив этого угла."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image13" />
+
+            <EditText
+                android:id="@+id/et_33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №16"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="В угол C величиной 157° вписана окружность, которая касается сторон угла в точках A и B, точка O  — центр окружности. Найдите угол AOB. Ответ дайте в градусах."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image14" />
+
+            <EditText
+                android:id="@+id/et_34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №17"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Периметр равностороннего треугольника равен 30. Найдите его площадь, делённую на  корень из 3 ."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image15" />
+
+            <EditText
+                android:id="@+id/et_35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №18"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="На клетчатой бумаге с размером клетки 1×1 изображён треугольник. Найдите его площадь."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image16" />
+
+            <EditText
+                android:id="@+id/et_36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:gravity="center"
+                android:text="Задание №19"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Какое из следующих утверждений верно?"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="1)  Все углы ромба равны.  \n2)  Если стороны одного четырёхугольника соответственно равны сторонам другого четырёхугольника, то такие четырёхугольники равны.  \n3)  Через любую точку, лежащую вне окружности, можно провести две касательные к этой окружности."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="В ответ запишите номер выбранного утверждения."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Запишите ответ"
+                android:inputType="textMultiLine"
+                android:textColor="#FF8000"
+                android:textColorHighlight="#FF8000"
+                android:textColorHint="#FF8000"
+                android:textColorLink="#FF8000" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="100dp"
+                android:backgroundTint="#FF8000"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Отправить"
+                app:cornerRadius="60dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
